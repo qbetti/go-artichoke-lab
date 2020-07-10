@@ -12,14 +12,20 @@ All experiments have been successfully run with 16 GB of RAM, but in case you ha
 
 ## Running the experiments
 
+Download the package with Go:
+
+```
+go get -u github.com/qbetti/go-artichoke-lab
+```
+
 Just run the package with the following command:
 ```
-go run lab.go
+.../go/src/github.com/qbetti/go-artichoke-lab $ run lab.go
 ```
 
 ... And that's it! The experiments should be running!
 
-If you have a dependency error, I suggest that you install manually the two dependencies of this project: [Go-Ethereum](https://github.com/ethereum/go-ethereum/) and [Go-Artichoke](https://github.com/qbetti/go-artichoke)
+If you have a dependency error, I suggest that you install manually the two dependencies of this project: [Go-Ethereum](https://github.com/ethereum/go-ethereum/) (this one may be tricky) and [Go-Artichoke](https://github.com/qbetti/go-artichoke).
 
 ```
 go get -u github.com/ethereum/go-ethereum
