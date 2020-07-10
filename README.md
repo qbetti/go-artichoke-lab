@@ -20,7 +20,7 @@ go get -u github.com/qbetti/go-artichoke-lab
 
 Just run the package with the following command:
 ```shell
-~/go/src/github.com/qbetti/go-artichoke-lab$ run lab.go
+~/go/src/github.com/qbetti/go-artichoke-lab>$ run lab.go
 ```
 
 ... And that's it! The experiments should be running!
